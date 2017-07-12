@@ -10,7 +10,7 @@ public class CoolWeatherOpenHelper extends SQLiteOpenHelper {
 	/**
 	 * Province±ÌΩ®±Ì”Ôæ‰
 	 */
-	public static final String CREATE_PROVINCE="create table Procince(" +
+	public static final String CREATE_PROVINCE="create table Province(" +
 			"id integer primary key autoincrement," +
 			"province_name text," +
 			"province_code text)";
